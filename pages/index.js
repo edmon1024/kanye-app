@@ -26,11 +26,11 @@ const Page = ({ quotes }) => (
 
 Page.getInitialProps = async({ req }) => {
   const getHost = path => {
-    if(!req) return path
+    if(!req) return path;
 
-    const { host } = req.headers
+    const { host } = req.headers;
 
-    if(host.starsWith('localhost')){
+    if(host.startsWith('localhost')){
       return `http://${host}${path}`
     }
 
