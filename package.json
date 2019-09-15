@@ -1,0 +1,28 @@
+{
+  "name": "kanye-app",
+  "version": "1.0.0",
+  "description": "app with nextjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmon1024/kanye-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmon1024/kanye-app/issues"
+  },
+  "homepage": "https://github.com/edmon1024/kanye-app#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
