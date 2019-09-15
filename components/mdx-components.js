@@ -7,6 +7,7 @@ const Components = {
         h1 {
           font-size: 3rem;
           margin-bottom: 2rem;
+	  color: #FFFFFF;
         }
       `}</style>
     </h1>
@@ -18,6 +19,7 @@ const Components = {
       <style jsx>{`
         p {
           font-size: 1.7rem;
+	  color: #FFFFFF;
         }
       `}</style>
     </p>

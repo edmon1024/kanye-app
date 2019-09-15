@@ -1,5 +1,9 @@
 import {MDXProvider} from '@mdx-js/react'
 import components from '../components/mdx-components'
+import Layout from '../components/Layout'
+import Content from '../components/Content'
+import Header from '../components/Header'
+import Card from '../components/Card'
 
 # Hello from mdx
 
@@ -7,6 +11,11 @@ This page is build with [MDX](https://mdxjs.com/).
 
 export default ({ children }) => (
   <MDXProvider components={components}>
-    {children}
+    <Layout>
+      <Content>
+        <Header>Kanye Quotes</Header>
+        {children}
+      </Content>
+    </Layout>
   </MDXProvider>
 )
