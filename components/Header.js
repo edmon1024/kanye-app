@@ -32,7 +32,7 @@ const Header = ({ children }) => {
       <h1>{children}</h1>
       <ul>
         <li>
-          <A href="/">Home</A>
+          <A href="/">Inicio</A>
         </li>
       </ul>
       <style jsx>{`
